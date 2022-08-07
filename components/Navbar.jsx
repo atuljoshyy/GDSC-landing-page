@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center rounded-2xl transition-all duration-500 ' >
                 <div data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-out-quad">
                     <Link href="/"><a className='flex items-center'>
-                        <Image src='/img/logo.svg' width='100px' height='40px' alt='doppl logo' className='cursor-pointer'></Image>
+                        <Image src='/img/logo.svg' width='47px' height='47px' alt='logo' className='cursor-pointer'></Image>
                     </a></Link>
                 </div>
                 <div className='hidden md:block' >
