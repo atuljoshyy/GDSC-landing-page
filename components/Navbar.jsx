@@ -65,24 +65,24 @@ const Navbar = () => {
                 </div>
                 <div className='hidden md:block' data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-out-quad" data-aos-delay="350">
                     <a href="/" className='bg-white flex items-center text-neutral-600 border-4 border-dashed  font-semibold px-4 py-3 rounded-xl  focus:outline-none transition duration-500 mr-2' rel="noreferrer" >
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <line x1="12" y1="5" x2="12" y2="19" />
-                            <line x1="5" y1="12" x2="19" y2="12" />
-                        </svg>Submit</a>
-                </div>
-                {/* mobile menu  */}
-                <div className='md:hidden'>
-                    <button onClick={() => setShowMenu(!showMenu)} >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"></line><line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"></line><line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"></line></svg>
-                    </button>
-                </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-plus" width="20" height="20" viewBox="0 0 24 24" strokeWidth="2.5" stroke="#2c3e50" fill="none" strokeLinecap=="round" strokeLinejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="12" y1="5" x2="12" y2="19" />
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                    </svg>Submit</a>
             </div>
+            {/* mobile menu  */}
+            <div className='md:hidden'>
+                <button onClick={() => setShowMenu(!showMenu)} >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"></line><line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"></line><line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="24"></line></svg>
+                </button>
+            </div>
+        </div>
 
-            {showMenu && menu}
+            { showMenu && menu }
 
 
-        </nav>
+        </nav >
     )
 }
 

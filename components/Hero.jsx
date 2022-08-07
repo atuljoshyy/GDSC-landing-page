@@ -24,33 +24,33 @@ const Hero = () => {
                                     </div>
                                     <div className="mt-4 sm:mt-0 sm:ml-3 revue-form-actions">
                                         <button type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" className=" hidden md:flex items-center   px-4 py-2 text-base font-medium text-neutral-600  border border-transparent rounded-lg hover:bg-gray-300 focus:outline-none ">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                <circle cx="10" cy="10" r="7" />
-                                                <line x1="21" y1="21" x2="15" y2="15" />
-                                            </svg></button>
-                                    </div>
-                                </form>
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap=="round" strokeLinejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <circle cx="10" cy="10" r="7" />
+                                            <line x1="21" y1="21" x2="15" y2="15" />
+                                        </svg></button>
                             </div>
+                        </form>
+                    </div>
 
-                        </div>
-                        <div className=' justify-center space-x-4 mt-5 hidden md:flex'>
-                            <div>
-                                <p className='bg-yellow-50 px-4 py-2 rounded-full text-yellow-700 cursor-pointer'>Latest</p>
-                            </div>
-                            <div>
-                                <p className='bg-yellow-50 px-4 py-2 rounded-full text-yellow-700 cursor-pointer'>Popular</p>
-                            </div>
-                            <div>
-                                <p className='bg-yellow-50 px-4 py-2 rounded-full text-yellow-700 cursor-pointer'>Premium</p>
-                            </div>
-                            <div>
-                                <p className='bg-green-50 px-4 py-2 rounded-full text-green-700 cursor-pointer'>Free</p>
-                            </div>
-                        </div>
+                </div>
+                <div className=' justify-center space-x-4 mt-5 hidden md:flex'>
+                    <div>
+                        <p className='bg-yellow-50 px-4 py-2 rounded-full text-yellow-700 cursor-pointer'>Latest</p>
+                    </div>
+                    <div>
+                        <p className='bg-yellow-50 px-4 py-2 rounded-full text-yellow-700 cursor-pointer'>Popular</p>
+                    </div>
+                    <div>
+                        <p className='bg-yellow-50 px-4 py-2 rounded-full text-yellow-700 cursor-pointer'>Premium</p>
+                    </div>
+                    <div>
+                        <p className='bg-green-50 px-4 py-2 rounded-full text-green-700 cursor-pointer'>Free</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+            </section >
         </>
     )
 }
