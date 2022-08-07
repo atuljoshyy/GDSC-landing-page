@@ -14,7 +14,7 @@ const Cards = () => {
                                 <div className='flex space-x-2'>
                                     <div>
                                         <p className='flex items-center text-sm bg-yellow-50 px-4 py-2 rounded-lg text-gray-600 cursor-pointer'>SVG
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap=="round" strokeLinejoin="round">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                 <line x1="4" y1="20" x2="20" y2="20" />
                                                 <line x1="12" y1="14" x2="12" y2="4" />
@@ -24,7 +24,7 @@ const Cards = () => {
                                     </div>
                                     <div>
                                         <p className='flex items-center text-sm bg-yellow-50 px-4 py-2 rounded-lg text-gray-600 cursor-pointer'>PNG
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap=="round" strokeLinejoin="round">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                 <line x1="4" y1="20" x2="20" y2="20" />
                                                 <line x1="12" y1="14" x2="12" y2="4" />
@@ -44,7 +44,7 @@ const Cards = () => {
                                 <div className='flex space-x-2'>
                                     <div>
                                         <p className='flex items-center text-sm bg-yellow-50 px-4 py-2 rounded-lg text-gray-600 cursor-pointer'>SVG
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap=="round" strokeLinejoin="round">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                 <line x1="4" y1="20" x2="20" y2="20" />
                                                 <line x1="12" y1="14" x2="12" y2="4" />
@@ -54,7 +54,7 @@ const Cards = () => {
                                     </div>
                                     <div>
                                         <p className='flex items-center text-sm bg-yellow-50 px-4 py-2 rounded-lg text-gray-600 cursor-pointer'>PNG
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap=="round" strokeLinejoin="round">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                 <line x1="4" y1="20" x2="20" y2="20" />
                                                 <line x1="12" y1="14" x2="12" y2="4" />
@@ -73,7 +73,7 @@ const Cards = () => {
                                 <div className='flex space-x-2'>
                                     <div>
                                         <p className='flex items-center text-sm bg-yellow-50 px-4 py-2 rounded-lg text-gray-600 cursor-pointer'>SVG
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap=="round" strokeLinejoin="round">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                 <line x1="4" y1="20" x2="20" y2="20" />
                                                 <line x1="12" y1="14" x2="12" y2="4" />
@@ -83,7 +83,7 @@ const Cards = () => {
                                     </div>
                                     <div>
                                         <p className='flex items-center text-sm bg-yellow-50 px-4 py-2 rounded-lg text-gray-600 cursor-pointer'>PNG
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap=="round" strokeLinejoin="round">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-bar-to-down" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#828282" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                                 <line x1="4" y1="20" x2="20" y2="20" />
                                                 <line x1="12" y1="14" x2="12" y2="4" />
