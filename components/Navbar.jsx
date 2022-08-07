@@ -13,16 +13,16 @@ const Navbar = () => {
                     <div className='' >
                         <ul className='flex flex-col items-center' >
                             <li className='mr-10 hover:text-wblue-100 transition duration-300 hover:scale-x-95 hover:scale-y-100' >
-                                <Link href='/#product'><a>Home</a></Link>
+                                <Link href='/'><a>Home</a></Link>
                             </li>
                             <li className='mr-10 hover:text-wblue-100 transition duration-300 hover:scale-x-95 hover:scale-y-100' >
-                                <a href='/' rel="noreferrer" >Vectors</a>
+                                <Link href='/' rel="noreferrer" >Vectors</Link>
                             </li>
                             <li className='mr-10 hover:text-wblue-100 transition duration-300 hover:scale-x-95 hover:scale-y-100' >
                                 <Link href='/'><a >Categories</a></Link>
                             </li>
                             <li className='mr-10 hover:text-wblue-100 transition duration-300 hover:scale-x-95 hover:scale-y-100' >
-                                <a href='/' rel="noreferrer">More</a>
+                                <Link href='/' rel="noreferrer">More</Link>
                             </li>
                         </ul>
                     </div>
@@ -64,12 +64,12 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='hidden md:block' data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-out-quad" data-aos-delay="350">
-                    <a href="/" className='bg-white flex items-center text-neutral-600 border-4 border-dashed  font-semibold px-4 py-3 rounded-xl  focus:outline-none transition duration-500 mr-2' rel="noreferrer" >
+                    <Link href="/" className='bg-white flex items-center text-neutral-600 border-4 border-dashed  font-semibold px-4 py-3 rounded-xl  focus:outline-none transition duration-500 mr-2' rel="noreferrer" >
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-plus" width="20" height="20" viewBox="0 0 24 24" strokeWidth="2.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                             <line x1="12" y1="5" x2="12" y2="19" />
                             <line x1="5" y1="12" x2="19" y2="12" />
-                        </svg>Submit</a>
+                        </svg>Submit</Link>
                 </div>
                 {/* mobile menu  */}
                 <div className='md:hidden'>
