@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>GDSC</title>
-        <meta name="description" content="" />
+        <title>Vectorr</title>
+        <meta name="description" content="Free vectors" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='bg-[#F5F5F7]'>

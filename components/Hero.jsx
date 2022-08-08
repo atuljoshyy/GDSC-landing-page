@@ -20,7 +20,7 @@ const Hero = () => {
                                 <form action="" method="post" id="revue-form" name="revue-form" target="_blank" className="p-2 mt-8 transition duration-500 ease-in-out transform border2 bg-white md:mx-auto rounded-xl sm:max-w-lg sm:flex">
                                     <div className="flex-1 min-w-0 revue-form-group">
                                         <label htmlFor="search" className="sr-only">Search for your perfect illustration</label>
-                                        <input id="cta-email" type="email" className="block w-full px-5 py-3 text-base placeholder-gray-300 transition duration-500 ease-in-out transform bg-transparent border border-transparent rounded-md text-neutral-600 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 " placeholder="Search for your perfect illustration  " />
+                                        <input id="cta-email" type="text" className="block w-full px-5 py-3 text-base placeholder-gray-300 transition duration-500 ease-in-out transform bg-transparent border border-transparent rounded-md text-neutral-600 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 " placeholder="Search for your perfect illustration  " />
                                     </div>
                                     <div className="mt-4 sm:mt-0 sm:ml-3 revue-form-actions">
                                         <button type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" className=" hidden md:flex items-center   px-4 py-2 text-base font-medium text-neutral-600  border border-transparent rounded-lg hover:bg-gray-300 focus:outline-none ">
