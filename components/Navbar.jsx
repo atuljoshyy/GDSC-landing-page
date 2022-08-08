@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center rounded-2xl transition-all duration-500 ' >
                 <div data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-out-quad">
                     <Link href="/"><a className='flex items-center'>
-                        <h1 className='text-3xl font-bold'>V</h1>
+                        <h1 className='text-3xl font-bold'>Vectorr</h1>
                     </a></Link>
                 </div>
                 <div className='hidden md:block' >
