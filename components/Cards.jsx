@@ -40,7 +40,7 @@ const Cards = () => {
                         <div className='bg-white flex flex-col justify-between py-6 px-5 mb-5 md:mb-0 md:py-6 md:px-5 rounded-[40px] md:mr-5 hover:shadow-2xl transform hover:-translate-y-5  hover:scale-y-105 transition duration-700 cursor-pointer'>
                             <Image src='/img/img2.svg' width='502px' height='266px' alt='lying person' />
                             <div className='flex justify-between items-center mt-3'>
-                                <h3 className='text-xl font-medium px-1 py-3 md:px-3 md:py-3'>Meditating</h3>
+                                <h3 className='text-xl font-medium px-1 py-3 md:px-3 md:py-3'>Relaxing</h3>
                                 <div className='flex space-x-2'>
                                     <div>
                                         <p className='flex items-center text-sm bg-yellow-50 px-4 py-2 rounded-lg text-gray-600 cursor-pointer'>SVG
@@ -69,7 +69,7 @@ const Cards = () => {
                         <div className='bg-white flex flex-col justify-between py-6 px-5 mb-5 md:mb-0 md:py-6 md:px-5 rounded-[40px] md:mr-5 hover:shadow-2xl transform hover:-translate-y-5  hover:scale-y-105 transition duration-700 cursor-pointer'>
                             <Image src='/img/img3.svg' width='502px' height='266px' alt='lying person' />
                             <div className='flex justify-between items-center mt-3'>
-                                <h3 className='text-xl font-medium px-1 py-3 md:px-3 md:py-3'>Meditating</h3>
+                                <h3 className='text-xl font-medium px-1 py-3 md:px-3 md:py-3'>Hurry</h3>
                                 <div className='flex space-x-2'>
                                     <div>
                                         <p className='flex items-center text-sm bg-yellow-50 px-4 py-2 rounded-lg text-gray-600 cursor-pointer'>SVG
